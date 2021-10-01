@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Todo 1: change constraint layout tpo frame layout -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Todo 2: Remove all old constraintLayout attributes  -->
+    <!-- Todo 3: Give textView 16dp padding & textSize 20sp-->
+    <!-- Todo 2: set id for text view to tv_toy_names-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+
+        android:padding="16dp"
+        android:textSize="20sp"
+
+        android:id="@+id/tv_toy_names"
+        />
+
+</FrameLayout>
